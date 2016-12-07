@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<style> 
+body {
+    background: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+( function () {
+    window.addEventListener( 'tizenhwkey', function( ev ) {
+        if( ev.keyName === "back" ) {
+            var activePopup = document.querySelector( '.ui-popup-active' ),
+                page = document.getElementsByClassName( 'ui-page-active' )[0],
+                pageid = page ? page.id : "";
+
+            if( pageid === "main" && !activePopup ) {
+                try {
+                    tizen.application.getCurrentApplication().exit();
+                } catch (ignore) {
+                }
+            } else {
+                tizen.application.getCurrentApplication().exit();
+            }
+        }
+    } );
+} () );
+
+</SCRIPT>
+   <script src="js/main.js"></script>
+</head>
+
+<body>
+<br><br>
+<img src="title.png" alt="title" style="width:90%;height:90%;margin-left:8%;">
+<img src="sentence.png" alt="title" style="width:90%;height:90%;margin-left:8%;">
+<td><input type="image" src="start.png" width = 60% height = 60% style="margin-left:19%; margin-top:20%;" onClick="self.location='play.html';return false;"></td>
+
+</body>
+</html>

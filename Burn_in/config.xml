@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/test" version="1.0.0" viewmodes="maximized">
+    <tizen:account multiple-account-support="false">
+        <tizen:icon section="BurnIn">burn_icon.png</tizen:icon>
+        <tizen:icon section="BurnInSmall">burn_icon.png</tizen:icon>
+        <tizen:display-name>Burn in</tizen:display-name>
+    </tizen:account>
+    <tizen:application id="qZsJFsitkE.test" package="qZsJFsitkE" required_version="2.3"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="burn_icon.png"/>
+    <name>Burning Sound</name>
+    <tizen:privilege name="http://tizen.org/privilege/account.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/account.write"/>
+    <tizen:profile name="mobile"/>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="enable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Burn in"/>
+    <title>Burn in</title>
+    <link rel="stylesheet" href="lib/tau/mobile/theme/default/tau.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+<style> 
+body {
+    background: url("bgnotting.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+
+<p style="margin-left:5%;font-size:150%;"><font color="CadetBlue">What is burn in...</font></p>
+<div id="clockdiv">
+  <div>
+    <div class="normaltext">Sound equipment actually require a time of adjustment called 'Burn-In'.</div>
+    <div class="normaltext">During this time you will notice an increase in sound quality about your sound equipment.</div>
+    <div class="normaltext">And this app is designed to Burn-in new ear/headphones.</div>
+  </div>
+
+
+
+
+<input type="image" src="aboutnext.png" onClick="self.location='about2.html';return false;" width=35% height=35% style="margin-left:33%; margin-top:45%;">
+
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+( function () {
+    window.addEventListener( 'tizenhwkey', function( ev ) {
+        if( ev.keyName === "back" ) {
+            var activePopup = document.querySelector( '.ui-popup-active' ),
+                page = document.getElementsByClassName( 'ui-page-active' )[0],
+                pageid = page ? page.id : "";
+
+            if( pageid === "main" && !activePopup ) {
+                try {
+                    tizen.application.getCurrentApplication().exit();
+                } catch (ignore) {
+                }
+            } else {
+                window.location.href = "index.html";
+            }
+        }
+    } );
+} () );
+
+
+</SCRIPT>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Burn in"/>
+    <link rel="stylesheet" href="lib/tau/mobile/theme/default/tau.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+<style> 
+body {
+    background: url("bg20result.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+
+<br><br><br>
+<p style="color:CadetBlue;font-size:200%;">You totally burned...</p>
+  <div id="clockdiv">
+  <div>
+    <span id="totalHour" style="display:inline;"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span id="totalMin" style="display:inline;"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  
+  
+ <br><br><br>
+ <input type="image" src="homebutton.jpg" value="home" onClick="self.location='index.html';return false;" width = 70% height = 70% style=vertical-align:middle;>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+	resultPage();
+	
+	( function () {
+    window.addEventListener( 'tizenhwkey', function( ev ) {
+        if( ev.keyName === "back" ) {
+            var activePopup = document.querySelector( '.ui-popup-active' ),
+                page = document.getElementsByClassName( 'ui-page-active' )[0],
+                pageid = page ? page.id : "";
+
+            if( pageid === "main" && !activePopup ) {
+                try {
+                    tizen.application.getCurrentApplication().exit();
+                } catch (ignore) {
+                }
+            } else {
+                window.location.href = "index.html";
+            }
+        }
+    } );
+} () );
+</script>
+</body>
+</html>

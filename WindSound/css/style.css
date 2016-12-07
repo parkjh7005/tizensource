@@ -1,0 +1,35 @@
+#font{
+    font-family: sans-serif;
+    color: #29abad;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#font > div{
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#font div > span{
+    padding: 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.normaltext{
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.verysmalltext{
+    padding-top: 5px;
+    font-size: 45%;
+}

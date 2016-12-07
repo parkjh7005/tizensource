@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;pause.png, play.png&apos; to &apos;Player&apos;" description="Move 2 resources to &apos;Player&apos;" destination="/Player" element1="/Burn_in/pause.png" element2="/Burn_in/play.png" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1480499809801" updateReferences="true"/>
+</session>

@@ -1,0 +1,20 @@
+INDEX VERSION 1.3+C:\TizenStudioWorkspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1222275752.index
+1755122034.index
+783612150.index
+3471705953.index
+3862702050.index
+123542742.index
+2369258795.index
+2093107937.index
+726027412.index
+911010119.index
+1648157263.index
+238706436.index
+4031095673.index
+443495270.index
+3556424676.index
+3500204019.index
+3404470934.index
+1580520327.index
+1681457545.index

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<style> 
+body {
+    background: url("bgfreq.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+( function () {
+    window.addEventListener( 'tizenhwkey', function( ev ) {
+        if( ev.keyName === "back" ) {
+            var activePopup = document.querySelector( '.ui-popup-active' ),
+                page = document.getElementsByClassName( 'ui-page-active' )[0],
+                pageid = page ? page.id : "";
+
+            if( pageid === "main" && !activePopup ) {
+                try {
+                    tizen.application.getCurrentApplication().exit();
+                } catch (ignore) {
+                }
+            } else {
+                tizen.application.getCurrentApplication().exit();
+            }
+        }
+    } );
+} () );
+
+</SCRIPT>
+   <script src="js/main.js"></script>
+</head>
+
+<body>
+<br><br><br>
+<p style="margin-left:5%;font-size:200%;"><font color="CadetBlue">Choose model's frequency band.</font></p>
+<td><input type="image" src="freq3button.jpg" width = 70% height = 70% style="margin-left:15%; margin-top:10%;" onClick="self.location='setting30.html';return false;"></td>
+<td><input type="image" src="freq2button.jpg" width = 70% height = 70% style="margin-left:15%; margin-top:3%;" onClick="self.location='setting20.html';return false;"></td>
+<td><input type="image" src="help.png" width = 70% height = 70% style="margin-left:15%; margin-top:3%;" onClick="self.location='about.html';return false;"></td>
+
+</body>
+</html>

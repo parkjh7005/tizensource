@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profiles version="3.0">
+<profile name="parkjh">
+<profileitem ca="" distributor="0" key="C:\Users\parkjuhwan\SamsungCertificate\parkjh\author.p12" password="vSFmf0RwH/XGYRytc+XWyw==" rootca=""/>
+<profileitem ca="" distributor="1" key="C:\Users\parkjuhwan\SamsungCertificate\parkjh\distributor.p12" password="vSFmf0RwH/XGYRytc+XWyw==" rootca=""/>
+<profileitem ca="" distributor="2" key="" password="xmEcrXPl1ss=" rootca=""/>
+</profile>
+<profile name="parkjh_gear">
+<profileitem ca="" distributor="0" key="C:\Users\parkjuhwan\SamsungCertificate\parkjh_gear\author.p12" password="vSFmf0RwH/XGYRytc+XWyw==" rootca=""/>
+<profileitem ca="" distributor="1" key="C:\Users\parkjuhwan\SamsungCertificate\parkjh_gear\distributor.p12" password="vSFmf0RwH/XGYRytc+XWyw==" rootca=""/>
+<profileitem ca="" distributor="2" key="" password="xmEcrXPl1ss=" rootca=""/>
+</profile>
+</profiles>

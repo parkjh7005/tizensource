@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;Burn_in&apos;&#x0D;&#x0A;- Original project: &apos;Burn_in_prev&apos;&#x0D;&#x0A;- Destination element: &apos;Burn_in&apos;&#x0D;&#x0A;- Original element: &apos;resultPage.html&apos;" description="Copy file" element1="resultPage.html" files="1" flags="589830" folders="0" id="org.eclipse.wst.jsdt.ui.copy" log="resultPage.html&#x09;true&#x09;false" policy="org.eclipse.wst.jsdt.ui.copyResources" stamp="1480235468193" target="/Burn_in" units="0" version="1.0"/>
+</session>
